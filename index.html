@@ -1,84 +1,450 @@
+
+<!-- /*!
+*author:Enouch-wang
+*mailbox: 995690833@qq.com
+*github:  https://github.com/Enouch-wang
+*/ -->
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="Author" content="Noah">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="favicon" href="favicon.ico">
-    <title>自己的导航页</title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-    <style>@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.eot?t=1584846914425);src:url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.eot?t=1584846914425#iefix) format('embedded-opentype'),url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAACEAAAAOQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDVIMaATYCJAMUCwwABCAFhG0HUhswBxEVnPHIfiZkcgn7O+8oo66bEbK2OpSJxjfBA+X1vslMtll8iBW0KuzdSry1J/JGpwASAA0EaO7O95urXT4WOkKV5Nojj7b4hwrpy2SO/v97p78xLfvYuvYslzWHLex8DDAOpEDHnGQljg3TC+cUPEjbIQAHqRRD1GvQzI2BgvQTgBjYr083jJQNVcMRGEZbyVSVKhajY2hztCvAIv178YYywgANXUJ2atW7fk9qmZi1ZMCSjnILC8fbDUAHJFAMUCCGl/oGIm2uGBKHP1RRC3BgoKGZmLxVUbOWZcWqHRkc9A8PBBKFBsIGKXUBUAvlFZhwBAGmhiDBLIqgwKyVRwPuKwAOWAjCWUxL9mpIWOWKcikVmuwiF0+49sx9/bnn5gvfDdO/at6eQHTP5dHLd8Z6V67btSPG061Q523w0S5OzYETx4QbT9zXbnmuP/bdvOsL9lwR2D031utePndvMM7nXRncNy/G4xvlEveE69fc4Tdu+AbcnOdxa4E98/bFyZV75+5WxGRRnfY0cEulpaqbVCzNtxTEU1P1m2J4tFGwJ7VcytpevcrWOXd44oCjAyZu3DXRvQxryi09PV2/BcVQIlRxZPWvAFhMXkb1qQ3bHPFvOVXxWI1TjTLPFjtT5smFsAtxVqK82CcvekwcsbMOHDh4wOBxYw4eZI+NVR+A6Vmx4bGz1ZI0XFw1r0mlXm20lW5RpWd+s0u/ijYZwarmHJsZVi+tXKjMlU2rm186Hlk6tFxaPfwAWLPk3380K2u4Qm6xtmaprTL4b/dj0Nu/F+qwat8MpwLgzvpfdbSsPbbVBj9Ijy//kxa1tAb7qAqUxK4rT8490qpVpxGATiESBDT4aTX/LxTJg3H0MbPIZMAgJgaNIqSAxCCbpGjFQMdJObBhUBMcFKXhbCdRDEcilB0oZAYAQTiHQCOU4yAJ5ypJ0e6DTizvwEa4kODAK6KWdJIrLP1uHgWtYqDuj3zPi2FOvTHlb7BpaiWp1NwvSPRJKrMiW3zFAhljRPy2laohIzzTC9gN08S0Cgf0mjnV9ZLnpuxDWc/z5oZHQasYqPsj3/NiZGO9yX3/DTZNrdQQ+qJfkOjbpzIrWpBedUsrwrXcEr9tpWrICM/0AjyYaI5pLe8U0GvmemTWS47qmba6bH7D/IybAAdkZV1oQgoldGHjYViCYPl3WKxb86g+On/sE/+kc/CLtS1vNg==') format('woff2'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.woff?t=1584846914425) format('woff'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.ttf?t=1584846914425) format('truetype'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.svg?t=1584846914425#iconfont) format('svg')}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-querenzhengque:before{content:"\e600"}.icon-tishi:before{content:"\e640"}.icon-cuowu:before{content:"\e602"}.icon-jinggao:before{content:"\e62b"}*{box-sizing:border-box;margin:0;padding:0;font-weight:300}body,body ::-webkit-input-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;font-weight:300}body :-moz-placeholder,body ::-moz-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;opacity:1;font-weight:300}body :-ms-input-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;font-weight:300}a{text-decoration:none}.wrapper{background: #01a982; background: linear-gradient(to bottom right,#01a982 0,#60ae80 100%); overflow: hidden;}.bg-bubbles,.wrapper{position:absolute;left:0;width:100%;}.bg-bubbles{top:0;z-index:1}.bg-bubbles li{position:absolute;list-style:none;display:block;width:40px;height:40px;background-color:hsla(0,0%,100%,.15);bottom:-160px;animation:square 25s infinite;transition-timing-function:linear}.bg-bubbles li:nth-child(1){left:10%}.bg-bubbles li:nth-child(2){left:20%;width:80px;height:80px;animation-delay:2s;animation-duration:17s}.bg-bubbles li:nth-child(3){left:25%;animation-delay:4s}.bg-bubbles li:nth-child(4){left:40%;width:60px;height:60px;animation-duration:22s;background-color:hsla(0,0%,100%,.25)}.bg-bubbles li:nth-child(5){left:70%}.bg-bubbles li:nth-child(6){left:80%;width:120px;height:120px;animation-delay:3s;background-color:hsla(0,0%,100%,.2)}.bg-bubbles li:nth-child(7){left:32%;width:160px;height:160px;animation-delay:7s}.bg-bubbles li:nth-child(8){left:55%;width:20px;height:20px;animation-delay:15s;animation-duration:40s}.bg-bubbles li:nth-child(9){left:25%;width:10px;height:10px;animation-delay:2s;animation-duration:40s;background-color:hsla(0,0%,100%,.3)}.bg-bubbles li:nth-child(10){left:90%;width:160px;height:160px;animation-delay:11s}@keyframes square{0%{transform:translatey(0)}to{transform:translatey(-700px) rotate(600deg)}}@media (max-width:500px){.container h1{font-size:60px}form button,form input{width:500px}}.main{padding:50px 0;z-index:999;position:relative}.main h1{font-size:40px;text-align:center;color:#fff;margin-bottom:30px;text-transform:uppercase}.content{margin:0 auto;width:28%;background:#fff;border-radius:5px}p.footer{font-size:16px;text-align:center;color:#fff;font-weight:500;margin-top:30px}p.footer a{color:#55acee}p.footer a:hover{color:#000;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all}.content-top h2{font-size:22px;color:#fff;text-align:center;background:#02a982;padding:12px 0;border-radius:5px}.content-top p{text-align:center;font-size:16px;color:#000;margin-top:15px}.content-top ul li{display:block;font-size:15px;color:#000;line-height:1.8em;padding:1em 0 1em 1em;border-bottom:1px solid #e2e0de}.content-top ul li a{color:#000;font-weight:400}.content-top ul li a i{color:#02a982;font-style:normal;display:block;margin:2px 0}.content-top ul li span{display:block;color:#999}.content-top{padding:1.5em}.content-top p a{color:#55acee;margin-left:5px}@media (max-width:1366px){.content{width:31%}}@media (max-width:1280px){.content{width:32%}}@media (max-width:1080px){.content{width:38%}.main h1{font-size:36px}.content-top h2{font-size:20px;padding:10px 0}.content-top p,.content-top ul li,p.footer{font-size:14px}}@media (max-width:800px){.main h1{font-size:34px}.content{width:46%}}@media (max-width:768px){.main{padding:90px 0}.main h1{margin-bottom:55px}p.footer{margin-top:75px}}@media (max-width:736px){.main{padding:70px 0}.main h1{margin-bottom:45px}.content{width:53%}p.footer{margin-top:50px}}@media (max-width:667px){.main h1{font-size:32px;margin-bottom:35px}.main{padding:60px 0}.content{width:57%}.content-top h2{font-size:18px}}@media (max-width:600px){.main h1{font-size:30px}.content-top{padding:1em}.content{width:62%}}@media (max-width:568px){.content{width:68%}}@media (max-width:480px){.content{width:78%}.main h1{font-size:28px}p.footer{margin-top:42px}}@media (max-width:414px){.content-top h2{font-size:16px}.content{width:85%}.main{padding:50px 0}p.footer{line-height:1.8em;margin:42px auto 0;width:85%}}@media (max-width:384px){.main h1{font-size:27px}.content,p.footer{width:90%}p.footer{margin:32px auto 0}}@media (max-width:375px){.main h1{font-size:26px;margin-bottom:25px}.main{padding:45px 0}.content,p.footer{width:92%}.content-top h2{padding:8px 0}}@media (max-width:320px){.main h1{font-size:24px;margin-bottom:30px}.content-top ul li{padding:1em 0 1em 1em;background-size:13%!important}.content-top{padding:1.2em}.content-top p,.content-top ul li,p.footer{font-size:13px}.content,p.footer{width:90%}}@media(max-width:500px){.bg-bubbles, .wrapper{height:auto;}}</style>
+	<title>晨光的博客</title>
+        <link href="one.ico" rel="shortcut icon">
+        <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Ajy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
 </head>
-<body >
-    <div id="all">
-        <div class="wrapper">
-            <div class="main">
-                <h1>地址发布页</h1>
-                <div class="content">
-                    <div class="content-top">             
-                            <h2>请 Ctrl+D 收藏本页到浏览器收藏夹</h2>
-                            <ul>
-                                <li>
-                                    Goodguy
-                                    <a href="https://www.likixi.com" target="_blank"><i>https://www.likixi.com</i></a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
-                                    <a href="https://www.bilibili.com/" target="_blank"><i>https://www.bilibili.com/</a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    百度贴吧
-                                    <a href="https://tieba.baidu.com/index.html" target="_blank"><i>https://tieba.baidu.com/index.html</i></a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    成为一个GoodGuy-个人网站
-                                    <a href="https://www.likixi.com" target="_blank"><i>https://www.likixi.com/</i></a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                 
-                                <li>
-                                <span>近期部分国产浏览器屏蔽网址，电脑请安装<a href="https://www.google.cn/chrome/" target="_blank">chrome浏览器</a>访问，手机请安装<a href="https://www.xbext.com/" target="_blank">X浏览器</a>访问。<span>
-                            </ul>
- 
-                             
-                    </div>
-                </div>
-            </div>    
-            <ul class="bg-bubbles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </div>
+<body>
+<!-- banner -->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- navigation -->
+<div class="navigation">
+	<div class="container">
+		<div class="fixed-header">
+			<div class="nav-left">
+				<a href="#"><img src="images/one.jpg" alt=""/></a>
+			</div>
+			<div class="nav-right">
+				<span class="menu">菜单</span>
+					<nav class="cl-effect-1">
+						<ul class="nav1">
+							<li><a class="scroll" href="#home">首页</a></li>
+							<li><a class="scroll" href="#portfolio">文件夹</a></li>
+							<li><a class="scroll" href="#team">团队</a></li>
+							<!-- <li><a class="scroll" href="#pricing">定价</a></li> -->
+							<!-- <li><a class="scroll" href="#blog">博客</a></li>
+							<li><a class="scroll" href="#contact">联系</a></li> -->
+						</ul>
+					</nav>
+					<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+					<!-- //script for menu -->
+
+						<!-- script-for sticky-nav -->
+						<script>
+						$(document).ready(function() {
+							 var navoffeset=$(".navigation").offset().top;
+							 $(window).scroll(function(){
+								var scrollpos=$(window).scrollTop(); 
+								if(scrollpos >=navoffeset){
+									$(".navigation").addClass("fixed");
+								}else{
+									$(".navigation").removeClass("fixed");
+								}
+							 });
+							 
+						});
+						</script>
+					<!-- //script-for sticky-nav -->
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //navigation -->
+<!-- banner-bottom -->
+<div class="banner-bottom">
+	<div class="container">
+		<div class="bottom-grids">
+			<div class="col-md-5 bottom-left text-center">
+				<img src="images/2.jpeg" alt=""/>
+			</div>
+			<div class="col-md-7 bottom-right">
+				<h2>欢迎来到，阳光快乐号<span>.</span></h2>
+				<p>有时间写了一下自己的博客，不定时更新，一些前端知识和东西，下来跟着船长，在知识的海洋里去遨游，我在知识的尽头藏了个<span class="white">宝藏</span>想要就去寻找吧！  <span>让我们出发</span></p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="johney">
+		<h3>船长</h3>
+		<p>阳光男孩</p>
+	</div>
+</div>
+<!-- //banner-bottom -->
+<!-- portfolio -->
+<div id="portfolio" class="portfolio">
+	
+		<!-- Portfolio Starts Here -->
+		<div class="portfolios entertain_box  wow fadeInUp" data-wow-delay="0.4s" id="project">
+			<div class="portfolio-info">
+				<h2>一些前端知识</h2>
+				<p>有空的时候自己找一写东西封装一下或者前端cli</p>
+			</div>
+					<ul id="filters" class="clearfix">
+							<li><span class="filter active" data-filter="app card icon web">全部</span></li>
+							<li><span class="filter" data-filter="app">VUE</span></li>
+							<li><span class="filter" data-filter="card">React</span></li>
+							<li><span class="filter" data-filter="icon">小程序</span></li>
+							<li><span class="filter" data-filter="web">其他</span></li>
+					</ul>
+		
+				<div id="portfoliolist">
+					<div class="container">
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/x.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+								<img class="img-responsive" src="images/x.jpg" />
+								<div class="b-wrapper">
+								<h2 class="b-animate b-from-left    b-delay03 ">
+									DESIGN
+								</h2>
+								</div></a>
+							</div>
+						</div>				
+						<!-- <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/a.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+								<img class="img-responsive" src="images/a.jpg" />
+								<div class="b-wrapper">
+								<h2 class="b-animate b-from-left    b-delay03 ">
+									DESIGN
+								</div></a>
+							</div>
+						</div>		
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/b.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+								<img class="img-responsive" src="images/b.jpg" />
+								<div class="b-wrapper">
+								<h2 class="b-animate b-from-left    b-delay03 ">
+									DESIGN								
+								</div></a>
+							</div>
+						</div>				
+						<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/y.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+								<img class="img-responsive" src="images/y.jpg" />
+								<div class="b-wrapper">
+								<h2 class="b-animate b-from-left    b-delay03 ">
+									DESIGN
+								</h2>
+								</div></a>
+							</div>
+						</div>	
+						<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/c.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+								<img class="img-responsive" src="images/c.jpg" />
+								<div class="b-wrapper">
+								<h2 class="b-animate b-from-left    b-delay03 ">
+									DESIGN
+								</h2>
+								</div></a>
+							</div>
+						</div>			
+						<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/d.jpg" class="b-link-stripe b-animate-go  swipebox"  title="">
+								<img class="img-responsive" src="images/d.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										DESIGN
+									</h2>									
+								</div>
+								</a>
+							</div>
+						</div> -->
+						<div class="clearfix"></div>
+						</div>
+				</div>
+					
+		</div>
+			<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+				<!-- Portfolio Ends Here -->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						var filterList = {
+							init: function () {
+								// MixItUp plugin
+							// http://mixitup.io
+							$('#portfoliolist').mixitup({
+								targetSelector: '.portfolio',
+								filterSelector: '.filter',
+								effects: ['fade'],
+								easing: 'snap',
+								// call the hover effect
+								onMixEnd: filterList.hoverEffect()
+							});	
+						},
+						hoverEffect: function () {
+							// Simple parallax effect
+							$('#portfoliolist .portfolio').hover(
+								function () {
+									$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+									$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+								},
+								function () {
+									$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+									$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+								}		
+							);				
+						}
+					};
+					// Run the show!
+						filterList.init();
+					});	
+					</script>
+	
+</div>
+<!-- //portfolio -->
+<!-- leaders -->
+<div id="team" class="team">
+	<div class="container">
+		<div class="team-info">
+			<h2>见见我的船员们</h2>
+			<p>航行在宇宙尘埃里面的一艘阳光欢乐号</p>
+		</div>
+	</div>
+	<div class="team-grids">
+		<div class="container">
+			<div class="team-grid">
+				<img src="images/w.jpg" alt=""/>
+				<div class="caption">
+					<h3>一介凡人</h3>
+					<p>王</p>
+
+				</div>
+			</div>
+			<div class="team-grid">
+				<img src="images/n.jpeg" alt=""/>
+				<div class="caption">
+					<h3>王的女人</h3>
+					<p>女一号</p>
+				</div>
+			</div>
+			<div class="team-grid">
+				<img src="images/l.jpeg" alt=""/>
+				<div class="caption">
+					<h3>王的另一个女人</h3>
+					<p>女二号</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!-- //leaders -->
+<!-- pricing -->
+<!-- <div id="pricing" class="pricing">
+	<div class="container">
+		<div class="price-info">
+			<h2>价格</h2>
+			<p>就喜欢你用金钱刺裸裸的打击我，请敬请的用金钱折磨我。（请‘包养’我）哈哈哈太有意思了</p>
+            <p>金钱：可以买“床铺”，但不能买“睡眠”；可以买“珠宝”，但不能买“美丽”；可以买“纸笔”，但不能买“文思”；可以买“房屋”，但不能买“家庭”；可以买“食物”，但不能买“食欲”；可以买“娱乐”，但不能买“快乐”；可以买“谄媚”，但不能买“忠诚”；可以买“伴侣”，但不能买“朋友”；可以买“服从”，但不能买“尊敬”；可以买“权势”，但不能买“智慧”；可以买“肉体”，但不能买“爱情”；可以买“武器”，但不能买“和平”。</p>
+		</div>
+		<div class="pricing-grids">
+			<div class="pricing-grid">
+				<div class="basic-plan">
+					<h3>包天</h3>
+					<p><label>￥</label><span>1000</span></p>
+				</div>
+				<div class="details"><a href="#">买他</a></div>
+			</div>
+			<div class="pricing-grid active">
+				<div class="basic-plan">
+					<h3>包周</h3>
+					<p><label>￥</label> <span>5000</span></p>
+				</div>
+				<div class="details active"><a href="#">买他</a></div>
+			</div>
+			<div class="pricing-grid">
+				<div class="basic-plan">
+					<h3>包月</h3>
+					<p><label>￥</label> <span>18000</span></p>
+				</div>
+				<div class="details"><a href="#">快买他</a></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div> -->
+<!-- //pricing -->
+<!-- blog -->
+<!-- <div id="blog" class="blog">
+	<div class="container">
+		<div class="blog-info">
+			<h2>博客</h2>
+			<p>欢迎大佬们来我的网站，自己有空时候喜欢自己写点东西，希望各位大佬们，多给点意见或者分享学习的知识点</p>
+		</div>
+		<div class="blog-grids">
+			<div class="blog-grid">
+				<img src="images/24.jpg" alt=""/>
+				<div class="arr-icon">
+					<a href="#"></a>
+				</div>
+				<div class="desc">
+					<div class="desc-info">
+						<h3><a href="#">阳光男孩</a></h3>
+						<p>是要成为海贼王的男人，健康快乐</p>
+					</div>
+					<div class="desc-grids">
+						<div class="desc-left">
+							<ul>
+								<li><label> </label></li>
+								<li>2000.00.00</li>
+							</ul>
+						</div>
+						<div class="desc-right">
+							<ul>
+								<li><label> </label></li>
+								<li><a href="#"><span>9999999+</span> 评论</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="blog-grid">
+				<img src="images/23.jpg" alt=""/>
+				<div class="arr-icon">
+					<a href="#"></a>
+				</div>
+				
+				<div class="desc">
+					<div class="desc-info">
+						<h3><a href="#">我的女人</a></h3>
+						<p>美丽动人</p>
+					</div>
+					<div class="desc-grids">
+						<div class="desc-left">
+							<ul>
+								<li><label> </label></li>
+								<li>2000.00.00</li>
+							</ul>
+						</div>
+						<div class="desc-right">
+							<ul>
+								<li><label> </label></li>
+								<li><a href="#"><span>9999999+</span> 评论</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div> -->
+<!-- //blog -->
+<!-- contact -->
+<!-- <div id="contact" class="contact">
+	
+		<div class="contact-grids">
+			<div class="contact-left">
+				<div class="contact-info">
+					<h2>联系我:</h2>
+					<p></p>
+					<ul>
+						<li><label> </label></li>
+						<li>dream995690833</li>
+					</ul>
+					<ul class="icon">
+						<li><i></i></li>
+						<li>中国<span>北京</span> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" placeholder="名字" required>
+					<input type="text" placeholder="E-Mail" required>
+					<textarea placeholder="反馈内容" required></textarea>
+					<input type="submit" value="发送">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	
+</div> -->
+<!-- //contact -->
+<!-- copy-right -->
+<div class="copy-right">
+	<div class="container">
+		<p>Copyright &copy; 2022 晨光. </p>
+	</div>
+</div>
+<!-- //copy-right -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
 </body>
 </html>
